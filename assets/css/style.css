@@ -6242,7 +6242,10 @@ ol.wp-block-rss {
   margin: 0 14px;
   /* Medium Large devices */
 }
-
+.active  {
+    color: #e6001a;
+    transition: .5s;
+}
 @media (max-width: 1299px) {
   .menu-style1 > ul > li {
     margin: 0 10px;
@@ -20591,3 +20594,4 @@ span.select2-selection.select2-selection--single:focus {
     background-color: none!important;
     
 }
+
